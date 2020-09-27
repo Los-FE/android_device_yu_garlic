@@ -23,6 +23,7 @@ $(call inherit-product, device/yu/garlic/device.mk)
 
 # Inherit from common device
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
